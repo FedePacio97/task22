@@ -69,7 +69,7 @@ public class YouTubeChannelDAO {
         yt.setSurname((String) doc.get("surname"));
         yt.setUsername((String) doc.get("username"));
         yt.setPassword((String) doc.get("password"));
-        yt.setBirthday((LocalDate) doc.get("birthday"));
+        yt.setBirthday((String) doc.get("birthday"));
         yt.setPhone((String) doc.get("phone"));
         yt.setEmail((String) doc.get("email"));
 
